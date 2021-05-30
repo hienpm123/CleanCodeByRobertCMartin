@@ -34,3 +34,34 @@ sử dụng genymdhms và modymdhms thì ta sẽ phát âm như thế nào?
 ### 5. Sử dụng tên có thể tìm kiếm
 - Nếu đặt tên với một ký tự đơn hoặc một số, như vậy khi tìm kiếm sẽ gặp rất nhiều khó khăn, nhưng từ như vậy sẽ xuất hiện rất nhiều trong project.
 - vì vậy khi đặt tên, __tên phải phù hợp với kích thước và phạm vi của nó.__
+### 6. Tránh mã hóa
+- Việc mã hóa khi đặt tên sẽ trở thành một gánh nặng khi giải quyết một vấn đề. Chúng rất khó phát âm và dễ viết sai
+#### 6.1. Ký hiệu Hungary
+- Đặt tên theo ký hiệu Hungary là đặt tên biến kèm với kiểu dữ liệu, ví dụ phoneString. Với cách đặt tên Hungary và mã hóa khi cần thay đổi tên, kiểu dữ liệu, hàm, class sẽ rất khó khăn, đánh lừa người đọc.  
+- ví dụ: phoneString, phoneNumber
+#### 6.2 Tiền tố số
+- Khi đọc code chúng ta sẽ không để ý tới tiền tố hay hậu tố của tên, vì vậy hãy đặt tên ngắn nhất có thể và mang ý nghĩa.
+#### 6.3 Interface và Implements
+- Để mã hóa 1 interface ta nên sử dụng Imp, ví dụ ShapeFactoryImp thay vì sử dụng IShapFactory, vì _Imp_ đề cập tới việc triền khai, còn _I_ nói tới việc mã hõa.
+### 7. Tránh lập bản đồ tinh thần
+- Hãy đặt tên để người khác đọc có thể hiểu, tránh việc sử dụng một suy nghĩ riêng để đặt tên.
+### 8. Tên lớp
+- Tên của lớp nên là danh từ hoặc là cụm danh từ, ví dụ Customer, WikiPage, Account,... Tránh những từ như Manager, Processor, Data và Info khi đặt tên lớp. Không nên đặt tên lớp là một động từ.
+### 9. tên phương thức
+- Tên của phương thức nên là động từ hoặc một cụm động từ, ví dụ PostPayment, DeletePage hoặc Save.
+- Đặt tên theo tiêu chuẩn javabean với tiền tố _get_, _set_ và _is_.
+### 10. Đừng dễ thương
+- Ví dụ với mục đích xóa, chúng ta đặt tên HolyHandGrenade và DeleteIitem, cái tên HolyHandGrenade sẽ chẳng biết có mục đích gì, mặc dù nó cũng thực hiện cùng một chức năng với DeleteItem.
+__Say what you mean. Mean what you say__
+### 11. Chọn một từ cho mỗi khái niệm
+- Hãy sử dụng một từ vựng nhất quán trong code của bạn. Sử dụng quá nhiều từ vựng cho một hoàn cảnh sẽ dễ gây nhầm lẫn và khó đọc hiểu.
+### 12. Đừng chơi chữ
+- Tránh sử dụng một từ giống nhau cho hai mục đích khác nhau, sử dụng cùng một thuật ngữ cho hai ý tưởng khác nhau là một cách chơi chữ.
+- Để đảm bảo tính nhất quan, sử dụng tên có ngữ nghĩa khác nhau.
+### 13. Sử dụng giải pháp tên miền
+- Chọn tên kỹ thuật.
+### 14. Sử dụng tên miền có vấn đề
+- ?????
+### 15. Thêm ngữ cảnh có ý nghĩa
+### 16. Không thêm ngữ cảnh vô cớ
+
