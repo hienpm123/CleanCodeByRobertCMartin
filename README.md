@@ -25,4 +25,12 @@ với việc thay đổi tên đơn giản này, sẽ rất dễ dàng để hi�
 - __Tránh sử dụng những tên khác nhau chỉ một chút nhỏ.__ Ví dụ __XYZControllerForEfficientHandlingOfStrings__ - __XYZControllerForEfficientStorageOfStrings__ => chúng có hình dạng giống nhau một cách kinh ngạc. 
 ### 3. Tạo nên sự khác biệt có ý nghĩa
 - Nếu các tên khác nhau thì chúng phải có ý nghĩa khác nhau.
+- Sự khác biệt của _account_ và _accountInfo_, _accountData_ là gì?. Việc sử dụng Info và Data là không cần thiết, cũng giống như _a_, _an_, _the_.
+- Tránh sử dụng những tên dư thừa, ví dụ: name thay vì nameString
+- từ _variable_ không nên xuất hiện trong đặt tên biến, từ _table_ không xuất hiện trong cách đặt tên table
 ### 4. Sử dụng tên có thể phát âm
+![image](https://user-images.githubusercontent.com/45452245/120110644-8249da80-c198-11eb-92e8-cdab311652db.png)  
+sử dụng genymdhms và modymdhms thì ta sẽ phát âm như thế nào?  
+### 5. Sử dụng tên có thể tìm kiếm
+- Nếu đặt tên với một ký tự đơn hoặc một số, như vậy khi tìm kiếm sẽ gặp rất nhiều khó khăn, nhưng từ như vậy sẽ xuất hiện rất nhiều trong project.
+- vì vậy khi đặt tên, __tên phải phù hợp với kích thước và phạm vi của nó.__
