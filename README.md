@@ -18,6 +18,11 @@ int fileAgeInDays;_<space><space>
 ví dụ:  
 ![image](https://user-images.githubusercontent.com/45452245/120101127-b7d9ce00-c16e-11eb-98de-e8bc1a07d46c.png)  
  chúng ta thấy rằng List<int> getFlagCells và gắn cờ cho cell thông qua STATUS_VALUE sẽ làm code khó hiểu.  
-Cách giải quyết:
+__Cách giải quyết:__  
 ![image](https://user-images.githubusercontent.com/45452245/120101553-bc9f8180-c170-11eb-8dba-63f136c64a7d.png)  
 với việc thay đổi tên đơn giản này, sẽ rất dễ dàng để hiểu đoạn code này đang làm gì __đây là sức mạnh của việ sử dụng tên hay__
+- __Tránh sử dụng tên bao gồm từ _list_ khi đề cập đến một tập hợp__ ngoại trừ trường hợp đang đề cập đến một danh sách. Danh sách có nghĩa là một cái gì đó cụ thể với lập trình viên. Ví dụ listAccount, Tài khoản thực sự không phải là một danh sách, nó là một tập hợp. Vì vậy sử dụng accountGroup, clusterOfAccount hoặc accounts sẽ tốt hơn.
+- __Tránh sử dụng những tên khác nhau chỉ một chút nhỏ.__ Ví dụ __XYZControllerForEfficientHandlingOfStrings__ - __XYZControllerForEfficientStorageOfStrings__ => chúng có hình dạng giống nhau một cách kinh ngạc. 
+### 3. Tạo nên sự khác biệt có ý nghĩa
+- Nếu các tên khác nhau thì chúng phải có ý nghĩa khác nhau.
+### 4. Sử dụng tên có thể phát âm
