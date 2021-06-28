@@ -14,4 +14,8 @@ Mã OO gây khó khăn cho việc thêm các chức năng mới vì tất cả c
 + một đối đượng được tạo bởi _f_  
 + một đối tượng được truyền vào _f_ dưới dạng đối số.  
 + một đối tượng được giữ trong biến thể hiện của lớp _C_
-### 4. Train Wrecks (Xác tàu hỏa)
+#### 3.1. Train Wrecks (Xác tàu hỏa)
+#### 3.2. Hybirds
+- Không lên sử dụng cấu trúc nửa đối tượng, nửa cấu trúc dữ liệu
+#### 3.3. Hiding structures
+
